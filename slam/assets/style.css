@@ -1,0 +1,12 @@
+body {
+	background-image: url("../images/bk.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	color: #000;
+}
+h1{
+	color: red;
+}
+
+

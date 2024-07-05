@@ -1,0 +1,170 @@
+/* Apply styles to body */
+body {
+    font-family: Arial, sans-serif;
+    background: url('../images/bk3.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Style the container */
+.container {
+    max-width: 800px;
+    margin: 120px auto; /* Adjust margin for spacing */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1); /* Make it slightly transparent */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+/* Style the navbar */
+nav {
+    width: 100%;
+    background-color: #333; /* Dark background color */
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0; /* Ensure it starts from the left edge */
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px; /* Adjust spacing between navbar items */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Darken background on hover */
+    border-radius: 5px;
+}
+
+/* Style the "hello admin" text */
+.page-title {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 40px; /* Adjust spacing from navbar */
+}
+
+/* Style the card image and titles */
+.card-image {
+    position: relative;
+    overflow: hidden;
+    height: 400px; /* Adjust height as needed */
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+}
+
+.card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+/* Style card content and action */
+.card-content {
+    padding: 15px;
+}
+
+.card-action {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+.card-action a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.card-action a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Style input fields and submit button */
+.input-field input[type="text"],
+.input-field input[type="tel"],
+.input-field input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.input-field input[type="text"]:focus,
+.input-field input[type="tel"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.input-field input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.input-field input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
